@@ -1,4 +1,4 @@
-# 📚 Biblioteca Digital — Versão 4
+# 📚 Biblioteca Digital 
 
 Aplicativo Flutter para **gerenciamento de uma biblioteca digital**, permitindo cadastrar, editar, remover e emprestar livros.  
 Possui dashboard com estatísticas, gerenciamento de empréstimos e navegação intuitiva.
@@ -45,26 +45,6 @@ lib/
 
 ---
 
-## 📦 Como Executar
-
-1. **Instalar dependências**
-   ```sh
-   flutter pub get
-   ```
-
-2. **Rodar o projeto**
-   ```sh
-   flutter run
-   ```
-
-3. **Plataformas suportadas**
-   - Android
-   - iOS
-   - Web
-   - Desktop (Windows, macOS, Linux)
-
----
-
 ## 💡 Fluxo de Uso
 
 1. **Abrir o app** → Dashboard com resumo.
@@ -74,9 +54,3 @@ lib/
 5. **Registrar devolução** → Atualiza status e libera o livro.
 
 ---
-
-## 📌 Observações
-
-- O projeto usa **armazenamento em memória** (listas locais).
-- Para persistência real, é possível integrar **SQLite**, **Hive** ou **Firebase**.
-- A **barra de navegação inferior** permite alternar rapidamente entre telas.
