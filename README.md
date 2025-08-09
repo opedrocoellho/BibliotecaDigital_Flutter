@@ -21,27 +21,27 @@ bash
 Copiar
 Editar
 lib/
-│── main.dart               # Ponto de entrada do aplicativo
+│── main.dart # Ponto de entrada do aplicativo
 │
-├── models/                 # Modelos de dados
-│   ├── livro.dart           # Classe Livro
-│   ├── emprestimo.dart      # Classe Emprestimo
-│   └── usuario.dart         # Classe Usuario
+├── models/ # Modelos de dados
+│ ├── livro.dart
+│ ├── emprestimo.dart
+│ └── usuario.dart
 │
-├── services/               # Lógica e gerenciamento de dados
-│   └── biblioteca_service.dart
+├── services/ # Lógica de negócio e dados
+│ └── biblioteca_service.dart
 │
-├── widgets/                # Widgets reutilizáveis
-│   ├── livro_widget.dart
-│   ├── livro_ficcao_widget.dart
-│   ├── formulario_widget.dart
-│   └── formulario_livro_widget.dart
+├── widgets/ # Componentes reutilizáveis
+│ ├── livro_widget.dart
+│ ├── livro_ficcao_widget.dart
+│ ├── formulario_widget.dart
+│ └── formulario_livro_widget.dart
 │
-└── screens/                # Telas principais
-    ├── dashboard_screen.dart
-    ├── livros_screen.dart
-    ├── emprestimos_screen.dart
-    └── usuarios_screen.dart
+└── screens/ # Telas principais
+├── dashboard_screen.dart
+├── livros_screen.dart
+├── emprestimos_screen.dart
+└── usuarios_screen.dart
 🛠 Modelos de Dados
 Livro
 
