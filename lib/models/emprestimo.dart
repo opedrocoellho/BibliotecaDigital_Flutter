@@ -22,7 +22,7 @@ class Emprestimo {
     this.ativo = true,
     this.observacoes = '',
   })  : dataEmprestimo = dataEmprestimo ?? DateTime.now(),
-        dataPrevistaDevolucao = dataPrevistaDevolucao ?? DateTime.now().add(const Duration(days: 14));
+        dataPrevistaDevolucao = dataPrevistaDevolucao ?? DateTime.now().add(const Duration(days: 15));
   bool get estaAtrasado => ativo && dataDevolucao == null && DateTime.now().isAfter(dataPrevistaDevolucao);
   int get diasRestantes => (!ativo || dataDevolucao != null) ? 0 : dataPrevistaDevolucao.difference(DateTime.now()).inDays;
 }
